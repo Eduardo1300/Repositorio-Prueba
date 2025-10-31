@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>tienda de ropa</h1>
+    <p>Bienvenidos a la mejor tienda de ropa.</p>
+    <script src="app.js"></script>
+    <input type="text" name="hola" id="123">
+    <button id="btn">Enviar</button>
+    <script>
+        document.getElementById('btn').addEventListener('click', function() {
+            const inputValue = document.getElementById('123').value;
+            alert('Valor ingresado: ' + inputValue);
+        });
+    </script>
+</body>
+</html>
